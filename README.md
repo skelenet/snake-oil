@@ -1,22 +1,6 @@
-# Custom server with TypeScript + Nodemon example
+# Snake Oil 
+A repository on the snake oil  card game. 
+Welcome to snake oil. At the beginning of the game, someone is assigned as the Client. Everyone else is a salesperson. Before the round start everyone is dealt 6 cards. Client is also dealt two job cards and picks one. The salesperson's job is to combine two of their cards and pitch the product to the client. Once everyone has gone the client picks the best card. New client is chosen and the first to 3 client cards win OR whoever has the most after 2 full cycles of everyone. 
 
-The example shows how you can use [TypeScript](https://typescriptlang.com) on both the server and the client while using [Nodemon](https://nodemon.io/) to live reload the server code without affecting the Next.js universal code.
-
-Server entry point is `server/index.ts` in development and `dist/index.js` in production.
-The second directory should be added to `.gitignore`.
-
-## Preview
-
-Preview the example live on [StackBlitz](http://stackblitz.com/):
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/custom-server-typescript)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example custom-server-typescript custom-server-typescript-app
-# or
-yarn create next-app --example custom-server-typescript custom-server-typescript-app
-```
+Flowchart IO:
+https://drive.google.com/file/d/1xNwjPeyKeNcwhq0vyjw62w3tefNGoGvM/view?usp=sharing
